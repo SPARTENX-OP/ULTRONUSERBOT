@@ -63,14 +63,14 @@ async def start_msg(client, pic, version, total):
 <b><i>Clients :</b></i> <code>{str(total)}</code>
 <b><i>Sudo :</b></i> <code>{is_sudo}</code>
 
-<b><i>»» <u><a href='https://t.me/UltronBot_XD'>💥ԱӀէɾօղβօէ💥</a></u> ««</i></b>
+<b><i>»» <u><a href='https://t.me/SpartanBot_XD'>💥ԱӀէɾօղβօէ💥</a></u> ««</i></b>
 """
     await client.send_file(
         Config.LOGGER_ID,
         pic,
         caption=text,
         parse_mode="HTML",
-        buttons=[[Button.url("💥ԱӀէɾօղβօէ💥", "https://t.me/UltronBot_XD")]],
+        buttons=[[Button.url("💥ԱӀէɾօղβօէ💥", "https://t.me/SpartanBot_XD")]],
     )
 
 
@@ -78,8 +78,8 @@ async def start_msg(client, pic, version, total):
 async def join_it(client):
     if client:
         try:
-            await client(functions.channels.JoinChannelRequest("@UltronBot_XD"))
-            await client(functions.channels.JoinChannelRequest("@UltronBot_OP"))
+            await client(functions.channels.JoinChannelRequest("@SpartanBot_XD"))
+            await client(functions.channels.JoinChannelRequest("@SpartanBot_XD"))
         except BaseException:
             pass
 
