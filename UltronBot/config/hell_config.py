@@ -43,8 +43,8 @@ class Config(object):
         LOGGER_ID = int(LOGGER_ID)
     MAX_MESSAGE_SIZE_LIMIT = 4095
     MAX_SPAM = int(os.environ.get("MAX_SPAM", 3))
-    MY_CHANNEL = os.environ.get("YOUR_CHANNEL", "Its_UltronBot")
-    MY_GROUP = os.environ.get("YOUR_GROUP", "UltronBot_Chat")
+    MY_CHANNEL = os.environ.get("YOUR_CHANNEL", "SpartanBot_XD")
+    MY_GROUP = os.environ.get("YOUR_GROUP", "SpartanBot_XD")
     OCR_API = os.environ.get("OCR_API", None)
     PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", None)
     if PLUGIN_CHANNEL:
@@ -68,7 +68,7 @@ class Config(object):
     TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
     THUMB_IMG = os.environ.get("THUMB_IMG", "./UltronBot/resources/pics/UltronBot_logo.jpg")
     UNLOAD = list(os.environ.get("UNLOAD", "").split())
-    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/LEGENDXTHANOS/ULTRONBOT")
+    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/SPARTENX-OP/ULTRONBOT")
     WEATHER_API = os.environ.get("WEATHER_API", None)
 
 
