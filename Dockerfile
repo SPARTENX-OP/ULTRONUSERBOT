@@ -1,6 +1,6 @@
-FROM LEGENDXTHANOS/ULTRONBOT:latest
+FROM SPARTEN-OP/ULTRONBOT:latest
 
-RUN git clone https://github.com/LEGENDXTHANOS/ULTRONBOT.git /root/UltronBot
+RUN git clone https://github.com/SPARTENX-OP/ULTRONBOT.git /root/UltronBot
 
 WORKDIR /root/UltronBot
 
